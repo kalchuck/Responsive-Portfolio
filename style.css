@@ -123,8 +123,52 @@ button {
     background-color: hotpink;
   } 
 
-@media screen and (min-width: 640px){
+@media screen and (max-width: 640px){
 
+    body {
+        width: 100%;
+    }
+   
+    .container{
+        width: 100%;
+    }
+
+    .resaboutme {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%; 
+    }
+
+    
+}
+
+
+@media screen and (max-width: 768px){
+
+    body {
+        width: 60%;
+    }
+   
+    .container{
+        width: 60%;
+    }
+
+    .resaboutme {
+        width: 60%;
+    }
+
+    footer {
+        width: 60%; 
+    }
+}
+
+@media screen and (max-width: 980px){
+
+    body {
+        width: 100%;
+    }
    
     .container{
         width: 100%;
@@ -138,7 +182,3 @@ button {
         width: 100%; 
     }
 }
-
-
-  
- 
